@@ -1,0 +1,136 @@
+.contact-us {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 75.5px);
+  font-size: var(--h2-size);
+  line-height: 125%;
+  display: inline-block;
+  width: 153px;
+}
+.lets-get-started,
+.together-lets-shape {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.lets-get-started {
+  top: 117px;
+  font-size: var(--h3-size);
+  line-height: 125%;
+  width: 431px;
+}
+.together-lets-shape {
+  top: 167px;
+  line-height: 150%;
+  width: 471px;
+}
+.gridiconslocation {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.adenta-accra- {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 215px;
+  flex-shrink: 0;
+}
+.gridiconslocation-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.div {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 282px;
+  flex-shrink: 0;
+}
+.icbaseline-phone-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.hhaconsultghgmailcom {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 234px;
+  flex-shrink: 0;
+}
+.frame-div {
+  position: absolute;
+  top: 279px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.name {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 67px;
+}
+.name-input {
+  border: 1px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 631px;
+  height: 82px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-smi);
+  align-items: flex-start;
+  justify-content: center;
+}
+.type-message-here {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 162px;
+}
+.contact-form,
+.message-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.message-input {
+  border: 1px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 631px;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xl) var(--padding-smi);
+}
+.contact-form {
+  position: absolute;
+  top: 135px;
+  left: 651px;
+  gap: var(--gap-16xl);
+  color: var(--secondary-shade-1);
+}
+.contact-us-parent {
+  position: relative;
+  width: 1327px;
+  height: 656px;
+  margin-left: -45px;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--secondary);
+  font-family: var(--body-default);
+}

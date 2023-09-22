@@ -1,0 +1,40 @@
+.button-container,
+.button-wrapper {
+  height: 550px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.button-wrapper {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/public/frame-11@3x.png);
+}
+.button-container {
+  width: 1279px;
+  background-image: url(/public/frame-12@3x.png);
+}
+.button-container,
+.button-frame,
+.frame-container {
+  display: flex;
+  flex-direction: column;
+}
+.button-frame {
+  width: 1280px;
+  height: 550px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: url(/public/frame-13@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frame-container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+}

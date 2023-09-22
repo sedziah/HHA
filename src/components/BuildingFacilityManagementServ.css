@@ -1,0 +1,53 @@
+.frame-child2 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+.architectural-engineering,
+.enim-tincidunt-donec1 {
+  position: undefined;
+  font-weight: 500;
+  display: inline-block;
+  width: 338px;
+  height: 82px;
+  margin-left: 20px;
+}
+.enim-tincidunt-donec1 {
+  font-size: var(--body-default-size);
+  width: 320px;
+  height: 66px;
+}
+.frame5 {
+  width: 358px;
+  height: 158px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.frame-group,
+.frame5,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-group {
+  background-color: var(--primary);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.frame-group {
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--neutral);
+  font-family: var(--body-default);
+}

@@ -1,0 +1,40 @@
+.hha {
+  position: relative;
+  font-size: var(--h3-size);
+  font-family: var(--body-default);
+  color: var(--neutral);
+  text-align: left;
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header,
+.services-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.services-parent {
+  margin: 0;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.header {
+  background-color: var(--neutral);
+  width: 1440px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-54xl) 0 var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-850xl);
+  max-width: 1440px;
+}

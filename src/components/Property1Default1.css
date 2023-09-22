@@ -1,0 +1,14 @@
+.services1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+}
+.property-1default1 {
+  width: 69px;
+  height: 36px;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--secondary);
+  font-family: var(--body-default);
+}

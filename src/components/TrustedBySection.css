@@ -1,0 +1,62 @@
+.trusted-by-over {
+  position: relative;
+  line-height: 125%;
+}
+.company-logo-icon {
+  position: relative;
+  width: 138.66px;
+  height: 40.34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.company-logo-icon1 {
+  position: relative;
+  width: 99.16px;
+  height: 40.34px;
+}
+.company-logo-icon2,
+.company-logo-icon3,
+.company-logo-icon4 {
+  position: relative;
+  width: 142.86px;
+  height: 40.34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.company-logo-icon3,
+.company-logo-icon4 {
+  width: 96.64px;
+}
+.company-logo-icon4 {
+  width: 195.8px;
+}
+.company-logo-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 85.72px;
+}
+.landing-architecture-inner,
+.trusted-by-over-200-companies-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.trusted-by-over-200-companies-parent {
+  gap: var(--gap-22xl);
+}
+.landing-architecture-inner {
+  background-color: var(--primary-shade-1);
+  width: 1440px;
+  height: 210px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-21xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--neutral);
+  font-family: var(--body-default);
+}

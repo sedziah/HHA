@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-default: "Barlow Condensed";
+
+  /* font sizes */
+  --body-default-size: 18px;
+  --font-size-3xl: 22px;
+  --body-large-size: 24px;
+  --h3-size: 28px;
+  --h2-size: 38px;
+  --font-size-15xl: 34px;
+  --h1-size: 52px;
+
+  /* Colors */
+  --neutral: #fff;
+  --primary-shade-1: #32caa2;
+  --secondary-shade-1: #84909b;
+  --primary-shade-3: #c3f5e8;
+  --primary: #05ad81;
+  --color-lightseagreen: #28acb4;
+  --secondary: #3d4e5d;
+  --color-seagreen: #1a9a78;
+
+  /* Gaps */
+  --gap-16xl: 35px;
+  --gap-xs: 12px;
+  --gap-mini: 15px;
+  --gap-61xl: 80px;
+  --gap-21xl: 40px;
+  --gap-lg: 18px;
+  --gap-3xs: 10px;
+  --gap-22xl: 41px;
+  --gap-66xl-7: 85.7px;
+  --gap-850xl: 869px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-6xl: 25px;
+  --padding-3xl: 22px;
+  --padding-smi: 13px;
+  --padding-21xl: 40px;
+  --padding-54xl: 73px;
+  --padding-61xl: 80px;
+  --padding-8xs: 5px;
+  --padding-3xs: 10px;
+}

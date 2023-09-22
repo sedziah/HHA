@@ -1,0 +1,124 @@
+.services {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  width: 123px;
+}
+.frame {
+  width: 124px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio {
+  position: undefined;
+  line-height: 125%;
+  display: inline-block;
+  width: 121px;
+  height: 48px;
+  margin-left: 1px;
+}
+.frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 196px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-us {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  width: 295px;
+}
+.at-hha-consult {
+  margin: 0;
+}
+.at-hha-consult-container {
+  position: relative;
+  font-size: var(--body-large-size);
+  line-height: 150%;
+  display: inline-block;
+  width: 650px;
+}
+.frame2 {
+  width: 651px;
+  height: 268px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.frame-child {
+  position: relative;
+  width: 522px;
+  height: 615px;
+  object-fit: cover;
+}
+.frame-parent {
+  width: 1282px;
+  height: 615px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 109px;
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--secondary);
+  font-family: var(--body-default);
+}
+.footer-child {
+  position: relative;
+  border-top: 1px solid var(--primary-shade-3);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.creya360 {
+  color: var(--primary-shade-1);
+}
+.hnk-construction-all-container {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  width: 426px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.footer,
+.landing-architecture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  width: 1440px;
+  height: 70.66px;
+  justify-content: flex-start;
+  gap: 25px;
+  font-size: var(--body-default-size);
+  color: var(--secondary-shade-1);
+}
+.landing-architecture {
+  position: relative;
+  background-color: var(--neutral);
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  gap: 129px;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--secondary);
+  font-family: var(--body-default);
+}

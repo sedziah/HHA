@@ -1,0 +1,16 @@
+.get-started {
+  position: relative;
+  font-weight: 500;
+}
+.property-1default {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-6xl);
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--neutral);
+  font-family: var(--body-default);
+}

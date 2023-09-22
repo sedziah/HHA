@@ -1,0 +1,82 @@
+.hero-image-icon {
+  position: absolute;
+  top: 0;
+  left: 541px;
+  width: 835px;
+  height: 596px;
+  object-fit: cover;
+}
+.engineering-excellence {
+  color: var(--primary-shade-1);
+}
+.beyond-brick-and,
+.building-dreams-engineering-container {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  line-height: 125%;
+  display: inline-block;
+  width: 490px;
+}
+.beyond-brick-and {
+  top: 195px;
+  font-size: var(--body-large-size);
+  line-height: 150%;
+  width: 478px;
+}
+.frame-child1,
+.frame-inner,
+.frame-item,
+.group-icon {
+  position: relative;
+  width: 52.73px;
+  height: 52.73px;
+  z-index: 0;
+}
+.frame-child1,
+.frame-inner,
+.group-icon {
+  z-index: 1;
+}
+.frame-child1,
+.group-icon {
+  z-index: 2;
+}
+.frame-child1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 64.78px;
+  left: 63.27px;
+  z-index: 3;
+}
+.group-parent {
+  position: absolute;
+  top: 497px;
+  left: 483px;
+  width: 115.45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame4 {
+  position: relative;
+  width: 1376px;
+  height: 614.51px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame3 {
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--secondary);
+  font-family: var(--body-default);
+}
